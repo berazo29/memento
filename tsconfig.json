@@ -11,7 +11,8 @@
     "baseUrl": "./build",
     "paths": {
       "@core": ["./core/index"]
-    }
+    },
+    "noImplicitAny": true
   },
   "include": ["app/**/*", "index.ts"]
 }
