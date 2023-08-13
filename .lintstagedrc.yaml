@@ -1,2 +1,4 @@
 '*':
-  - npx prettier --ignore-unknown --write
+  - yarn prettier --ignore-unknown --write
+'*.(js|ts)':
+  - yarn eslint --max-warnings 0 --report-unused-disable-directives
