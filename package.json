@@ -10,9 +10,7 @@
     "postbuild": "sh scripts/postbuild.sh",
     "migrate:up": "knex --esm migrate:up",
     "test": "jest",
-    "test:dev": "jest --watch",
-    "formatter:check": "prettier --check .",
-    "formatter:write": "prettier --write . --ignore-unknown"
+    "test:dev": "jest --watch"
   },
   "dependencies": {
     "axe-api": "0.31.2",
